@@ -63,3 +63,5 @@ sorted_by_birthday = sorted(dict.items(), key=lambda x: (x[1], x[0]))
 with open("sorted_artists.txt", 'w', encoding='utf-8') as ouf:
     for i in sorted_by_birthday:
         ouf.write(i[0] + '\n')
+
+print("end.")
